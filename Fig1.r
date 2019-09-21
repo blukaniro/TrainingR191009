@@ -1,8 +1,8 @@
-d1<-read.table("Test1.txt", header=T)
+d1<-read.table("Test1.txt", header=T)  
 sd5<-subset(d1,d1$Stage=="5week")  
 sd8<-subset(d1,d1$Stage=="8week")  
 
-pdf("Fig1.pdf", width=10, height=5)
+pdf("Fig1.pdf", width=10, height=5)  
 par(oma = c(2, 2, 2, 2)) # 下・左・上・右
 
 par(mfrow=c(1,2)) # c(行, 列)  
