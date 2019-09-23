@@ -15,7 +15,7 @@ plot(sd5$SDW,sd5$RDW,
         col = "red",
         pch=16,
         cex=2,
-        axes=FALSE
+        axes=F,
     )
 axis(1, at=c(0,0.6,1.2,1.8,2.4), cex.axis=1.2, las=1, labels = T) # X軸ラベル
 axis(2, at=c(0,0.3,0.6,0.9,1.2), cex.axis=1.2, las=1, labels = T) # y軸ラベル
@@ -32,7 +32,7 @@ plot(sd8$SDW,sd8$RDW,
         col = "blue",
         pch=16,
         cex=2,
-        axes=FALSE
+        axes=F,
     )
 axis(1, at=c(0,0.6,1.2,1.8,2.4), cex.axis=1.2, las=1, labels = T) # X軸ラベル
 # axis(2, at=c(0,0.3,0.6,0.9,1.2), cex.axis=1.2, las=1, labels = T) # y軸ラベル

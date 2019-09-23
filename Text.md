@@ -22,10 +22,10 @@ plot(a,b, cex=2) #サイズの変更
 plot(a,b, type="o", col="red", pch=16, cex=2) #組み合わせられる
 # 以下のように構造的に書くとヌケモレがなくなる
 plot(a,b,
-    type="o",
-    col="red",
-    pch=16,
-    cex=2,
+        type="o",
+        col="red",
+        pch=16,
+        cex=2,
     )
 ```  
 
@@ -107,7 +107,7 @@ plot(sd5$SDW,sd5$RDW,
         col = "red",
         pch=16,
         cex=2,
-        axes=FALSE
+        axes=F,
     )
 axis(1, at=c(0,0.3,0.6,0.9,1.2), cex.axis=1.2, las=1, labels = T) # X軸ラベル
 axis(2, at=c(0,0.2,0.4,0.6), cex.axis=1.2, las=1, labels = T) # y軸ラベル
@@ -124,7 +124,7 @@ plot(sd8$SDW,sd8$RDW,
         col = "blue",
         pch=16,
         cex=2,
-        axes=FALSE
+        axes=F,
     )
 axis(1, at=c(0,0.6,1.2,1.8,2.4), cex.axis=1.2, las=1, labels = T) # X軸ラベル
 axis(2, at=c(0,0.3,0.6,0.9,1.2), cex.axis=1.2, las=1, labels = T) # y軸ラベル
@@ -146,7 +146,7 @@ plot(sd5$SDW,sd5$RDW,
         col = "red",
         pch=16,
         cex=2,
-        axes=FALSE
+        axes=F,
     )
 axis(1, at=c(0,0.6,1.2,1.8,2.4), cex.axis=1.2, las=1, labels = T) # X軸ラベル
 axis(2, at=c(0,0.3,0.6,0.9,1.2), cex.axis=1.2, las=1, labels = T) # y軸ラベル
@@ -163,7 +163,7 @@ plot(sd8$SDW,sd8$RDW,
         col = "blue",
         pch=16,
         cex=2,
-        axes=FALSE
+        axes=F,
     )
 axis(1, at=c(0,0.6,1.2,1.8,2.4), cex.axis=1.2, las=1, labels = T) # X軸ラベル
 # axis(2, at=c(0,0.3,0.6,0.9,1.2), cex.axis=1.2, las=1, labels = T) # y軸ラベル
@@ -182,10 +182,10 @@ pdf("test.pdf", width=5, height=5)
 a<-c(1,3,5,6,12)
 b<-c(2,7,3,16,11)
 plot(a,b,
-    type="o",
-    col="red",
-    pch=16,
-    cex=2,
+        type="o",
+        col="red",
+        pch=16,
+        cex=2,
     )
 dev.off()
 ```  

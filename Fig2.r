@@ -26,7 +26,7 @@ for (i in 1:2) {
                 col = cols[i],
                 pch=16,
                 cex=2,
-                axes=FALSE
+                axes=F,
             )
         if (i==1) {
             axis(2, at=yaxes[j,1:5], cex.axis=1.5, las=1, labels = T) # y軸ラベル

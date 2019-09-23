@@ -15,7 +15,7 @@ plot(sd5$SDW,sd5$RDW,
         col = "red",
         pch=16,
         cex=2,
-        axes=FALSE
+        axes=F,
     )
 axis(2, at=c(0,0.3,0.6,0.9,1.2), cex.axis=1.5, las=1, labels = T) # y軸ラベル
 mtext(2, text="RootDW", adj=0.5, cex = 1.5, line = 4)
@@ -30,7 +30,7 @@ plot(sd5$SDW,sd5$SPC,
         col = "red",
         pch=16,
         cex=2,
-        axes=FALSE
+        axes=F,
     )
 axis(2, at=c(0,0.1,0.2,0.3), cex.axis=1.5, las=1, labels = T) # y軸ラベル
 mtext(2, text="Phosphorus", adj=0.5, cex = 1.5, line = 4)
@@ -44,7 +44,7 @@ plot(sd5$SDW,sd5$RLD,
         col = "red",
         pch=16,
         cex=2,
-        axes=FALSE
+        axes=F,
     )
 axis(2, at=c(0,6,12,18,24), cex.axis=1.5, las=1, labels = T) # y軸ラベル
 mtext(2, text="RLD", adj=0.5, cex = 1.5, line = 4)
@@ -59,7 +59,7 @@ plot(sd8$SDW,sd8$RDW,
         col = "blue",
         pch=16,
         cex=2,
-        axes=FALSE
+        axes=F,
     )
 mtext(3, text="8 week", adj=0.5, cex = 1.5, line = 1)
 box("plot",lty=1,lwd=1) # 枠をつける
@@ -72,7 +72,7 @@ plot(sd8$SDW,sd8$SPC,
         col = "blue",
         pch=16,
         cex=2,
-        axes=FALSE
+        axes=F,
     )
 box("plot",lty=1,lwd=1) # 枠をつける
 
@@ -84,7 +84,7 @@ plot(sd8$SDW,sd8$RLD,
         col = "blue",
         pch=16,
         cex=2,
-        axes=FALSE
+        axes=F,
     )
 axis(1, at=c(0,0.6,1.2,1.8,2.4), cex.axis=1.5, las=1, labels = T) # x軸ラベル
 box("plot",lty=1,lwd=1) # 枠をつける
